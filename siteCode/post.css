@@ -1,3 +1,62 @@
 .muCharPost {
-...
+  box-sizing: border-box;
+  width: 563px;
+  margin: 0 auto;
+  background: #2E2E2E;
+  min-height: 500px;
+}
+
+.tvMap {
+  position: relative;
+}
+
+.tvOverlay {
+  margin-top: 14px;
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+}
+
+.tvUnderlay {
+  width: 454px;
+  height: 255px;
+  top: 57px;
+  left: 55px;
+  position: absolute;
+  overflow: hidden;
+  z-index: 2;
+  background: black;
+}
+
+.tvUnderlay img {
+  width: 454px;
+  z-index: 2;
+  box-sizing: border-box;
+  border-radius: 2px;
+  filter: opacity(0.85);
+  border: 1px solid #2E2E2E;
+}
+
+.muCharSpacer {
+  height: 124px;
+  width: 100%;
+  background: #D39B49;
+  position: relative;
+  top: 245px;
+  z-index: 1;
+  border-bottom: solid 24px #66201F;
+}
+
+.muCharText {
+  margin-top: 242px;
+  white-space: break-spaces;
+  text-align: justify;
+  color: white;
+  padding: 33px;
+  display: block;
+  --accent: #D39B49;
+}
+
+.muCharPost b, .muCharPost i, .muCharPost u, .muCharPost a {
+  color: var(--accent);
 }
