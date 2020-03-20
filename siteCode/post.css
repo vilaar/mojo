@@ -18,7 +18,7 @@
 }
 
 .tvUnderlay {
-  width: 454px;
+  width: 455px;
   height: 255px;
   top: 57px;
   left: 55px;
@@ -29,7 +29,7 @@
 }
 
 .tvUnderlay img {
-  width: 454px;
+  width: 455px;
   z-index: 2;
   box-sizing: border-box;
   border-radius: 2px;
