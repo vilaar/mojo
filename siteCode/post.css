@@ -57,6 +57,6 @@
   --accent: #D39B49;
 }
 
-.muCharPost b, .muCharPost i, .muCharPost u, .muCharPost a {
+.muCharText b, .muCharText i, .muCharText u, .muCharText a {
   color: var(--accent);
 }
