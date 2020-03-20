@@ -55,6 +55,7 @@
   padding: 33px;
   display: block;
   --accent: #D39B49;
+  font-size: 14px;
 }
 
 .muCharText b, .muCharText i, .muCharText u, .muCharText a {
