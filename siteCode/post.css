@@ -59,6 +59,7 @@
   --accent: #D39B49;
   font-size: 14px;
   position: relative;
+  line-height: 1.15rem;
 }
 
 .muCharText b, .muCharText i, .muCharText u, .muCharText a {
