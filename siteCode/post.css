@@ -31,6 +31,8 @@
 
 .tvUnderlay img {
   width: 455px;
+  height: 260px;
+  object-fit: cover;
   z-index: 2;
   box-sizing: border-box;
   border-radius: 2px;
