@@ -3,8 +3,56 @@
   width: 563px;
   margin-left: -7px;
   background: #2E2E2E;
-  min-height: 500px;
+/*   min-height: 500px; */
   position: relative;
+}
+
+.muCharSpacer {
+  height: 124px;
+  width: 100%;
+  background: #D39B49;
+  position: relative;
+  top: 245px;
+  z-index: 1;
+  border-bottom: solid 24px #66201F;
+}
+
+.muCharText {
+  margin-top: 242px;
+  white-space: break-spaces;
+  text-align: justify;
+  color: white;
+  padding: 33px;
+  display: block;
+  --accent: #D39B49;
+  font-size: 14px;
+  position: relative;
+  line-height: 1.15rem;
+}
+
+.muCharSpacerPlain {
+  height: 48px;
+  width: 100%;
+  background: #D39B49;
+  position: relative;
+  z-index: 1;
+  border-bottom: solid 24px #66201F;
+}
+
+.muCharTextPlain {
+  white-space: break-spaces;
+  text-align: justify;
+  color: white;
+  padding: 33px;
+  display: block;
+  --accent: #D39B49;
+  font-size: 14px;
+  position: relative;
+  line-height: 1.15rem;
+}
+
+.muCharText b, .muCharText i, .muCharText u, .muCharText a, .muCharTextPlain b, .muCharTextPlain i, .muCharTextPlain u, .muCharTextPlain a {
+  color: var(--accent);
 }
 
 .tvMap {
@@ -39,31 +87,4 @@
   filter: opacity(0.85);
   border: 1px solid #2E2E2E;
   position: relative;
-}
-
-.muCharSpacer {
-  height: 124px;
-  width: 100%;
-  background: #D39B49;
-  position: relative;
-  top: 245px;
-  z-index: 1;
-  border-bottom: solid 24px #66201F;
-}
-
-.muCharText {
-  margin-top: 242px;
-  white-space: break-spaces;
-  text-align: justify;
-  color: white;
-  padding: 33px;
-  display: block;
-  --accent: #D39B49;
-  font-size: 14px;
-  position: relative;
-  line-height: 1.15rem;
-}
-
-.muCharText b, .muCharText i, .muCharText u, .muCharText a {
-  color: var(--accent);
 }
